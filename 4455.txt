@@ -1,0 +1,2 @@
+https://github.com/твой_юзер/telegram-bot
+https://github.com/Larec-1/telegram-trading-bot.git
