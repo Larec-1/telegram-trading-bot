@@ -1,3 +1,32 @@
 __pycache__/
 *.pyc
 .env
+# Игнорирование папки AppData и всех файлов с расширением .db
+AppData/
+*.db
+# Игнорировать папку AppData и все .db файлы
+AppData/
+*.db
+# Игнорируем системные папки и файлы
+AppData/
+.gitconfig
+*.dat
+*.log
+*.ini
+.idlerc/
+.lesshst
+# Игнорируем системные папки и файлы пользователя
+AppData/
+Application Data/
+Local Settings/
+NTUSER.*
+*.db
+*.LOG1
+*.LOG2
+*.ini
+*.lnk
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+desktop.ini
