@@ -1,7 +1,10 @@
+
 services:
   - type: web
     name: telegram-trading-bot
     env: python
-    buildCommand: ""
-    startCommand: gunicorn wsgi:app
-    autoDeploy: true
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn wsgi:app"
+    envVars:
+      - key: TELEGRAM_TOKEN
+        value: 8065007276:AAGM5_qHN7W_DVdmewlHUPZPXx_7p0hTTE8
